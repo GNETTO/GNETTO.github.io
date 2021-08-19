@@ -1,0 +1,35 @@
+#MY YAML  DOCUMENT FORMAT
+person:
+  name: &name "ZADI ORACLE"
+  occupation:"Software Developer"
+  age:!!float 30
+  gpa:!!str 3.5
+  fav_num:25
+  male:true
+  birthday:1975-02-06
+  flaws:null
+  hobbies:
+    - guitar playing
+    - scrabble
+  movies:["Azumi", "Good night"]
+  friends:
+   - name:"Dany"
+     age:22
+   - {Name:"Adam", age:22}
+   -
+    name:"joe"
+    age:23
+  description: >
+    Giraffe Academy is rebranding! I've decided 
+    to re-focus the brand of this channel to 
+    highlight myself as a developer and 
+    teacher! The newly minted Mike 
+    Dane channel will have all the 
+    same content, with more to come 
+    in the future!
+  languages: |
+   french 
+   English
+
+  id: *name  
+
