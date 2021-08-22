@@ -8,6 +8,7 @@ person:
   male:true
   birthday:1975-02-06
   flaws:null
+  color :blue
   hobbies:
     - guitar playing
     - scrabble
