@@ -9,6 +9,7 @@ person:
   birthday:1975-02-06
   flaws:null
   job : software developer
+  color :blue
   hobbies:
     - guitar playing
     - scrabble
